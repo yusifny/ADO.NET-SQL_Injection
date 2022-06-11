@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yusifnazarbayov/CodeAcademy/Visual Studio/Projects/ADO.NET-SQL_Injection/ADO.NET-SQL_Injection.csproj": {}
+  },
+  "projects": {
+    "/Users/yusifnazarbayov/CodeAcademy/Visual Studio/Projects/ADO.NET-SQL_Injection/ADO.NET-SQL_Injection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yusifnazarbayov/CodeAcademy/Visual Studio/Projects/ADO.NET-SQL_Injection/ADO.NET-SQL_Injection.csproj",
+        "projectName": "ADO.NET-SQL_Injection",
+        "projectPath": "/Users/yusifnazarbayov/CodeAcademy/Visual Studio/Projects/ADO.NET-SQL_Injection/ADO.NET-SQL_Injection.csproj",
+        "packagesPath": "/Users/yusifnazarbayov/.nuget/packages/",
+        "outputPath": "/Users/yusifnazarbayov/CodeAcademy/Visual Studio/Projects/ADO.NET-SQL_Injection/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yusifnazarbayov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.1.24, 3.1.24]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

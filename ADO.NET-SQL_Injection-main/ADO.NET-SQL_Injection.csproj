@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>ADO.NET_SQL_Injection</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="System.Data.SqlClient" />
+    <None Remove="Utils\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utils\" />
+  </ItemGroup>
+</Project>
